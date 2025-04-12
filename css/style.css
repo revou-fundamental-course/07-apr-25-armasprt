@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.7;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: sticky;
+    background-color: #333;
+    top: 0;
+    padding: 20px;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #917c7c;
+}
+
+nav ul li h3 {
+    color: #ffec43;
+    font-size: 17px;
+    padding-right: 50px;
+}
+
+.section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero {
+    padding: 200px;
+    background-image: url("/asset/banner2.jpg"), linear-gradient(to right, rgba(20, 15, 15, 0.677), rgba(127, 46, 46, 0.22));
+    background-size: cover;
+    text-align: left;
+}
+
+.section .text {
+    font-size: 16px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2.5;
+    text-align: justify;
+}
+
+.scroll-btn {
+    display:inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffec43;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #fff;
+    padding: 40px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.033);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #ffec43;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-weight: bold
+}
